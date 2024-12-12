@@ -1,0 +1,60 @@
+# Python
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# Virtual environment
+env/
+venv/
+ENV/
+.Venv/
+*.env
+
+# Django
+*.sqlite3
+media/
+staticfiles/
+
+# Logs
+*.log
+
+# IDE and Editors
+.vscode/
+.idea/
+*.swp
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Dependencies
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+*$py.class
+
+# Cache
+*.cache
+__pycache__/
+
+# Coverage
+.coverage
+*.cover
+.hypothesis/
+
+# Testing
+.pytest_cache/
+.tox/
+.nox/
+
+# Docker
+*.dockerignore
+docker-compose.override.yml
+
+# Miscellaneous
+*.bak
+*.orig
+*.tmp
